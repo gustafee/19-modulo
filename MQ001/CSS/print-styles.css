@@ -1,0 +1,17 @@
+/* Estilos para impressão */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.4;
+    margin: 20px;
+}
+
+header, footer, nav, a {
+    display: none !important;
+}
+
+article {
+    display: block;
+    width: 500px;
+    text-align: justify;
+}
